@@ -29,5 +29,8 @@ body{
     z-index: 0;
 }
 .navbar-dark{
-    background-color: cadetblue;
+    background-color: darkslateblue;
+}
+thead{
+    background-color: dimgrey;
 }
