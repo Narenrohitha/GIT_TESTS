@@ -34,3 +34,16 @@ body{
 thead{
     background-color: dimgrey;
 }
+.card-header{
+    background-color: orange;
+    width: 40rem;
+}
+.form-group{
+    width: 40rem;
+}
+.card{
+    width: 40rem;
+}
+.button{
+    width: 500rem;
+}
