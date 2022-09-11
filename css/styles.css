@@ -53,3 +53,6 @@ thead{
     border-bottom: 1px solid #ddd;
     padding: 10px;
 }
+.card{
+    width: 40rem;
+}
