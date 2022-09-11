@@ -34,15 +34,15 @@ body{
 thead{
     background-color: dimgrey;
 }
-.card-header{
+.card-header-fr{
     background-color: orange;
     width: 40rem;
 }
 .form-group{
     width: 40rem;
 }
-.card{
-    width: 40rem;
+.card-fa{
+    width: 20rem;
 }
 .button{
     width: 500rem;
