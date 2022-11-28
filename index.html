@@ -91,7 +91,9 @@
                         <div class="col-12 col-sm-4 order-sm-last"><br><br>
                         <a role="button" class="btn btn-warning btn-lg active"
                         data-toggle="tooltip"  data-html="true" title="Or Call us at <br><strong>+852 12345678</strong>"
-                        data-placement="bottom"  href="#guests">Reserve Table</a>
+                        data-placement="bottom"  href="#inlineRadio1">Reserve Table</a>
+                       
+        
                         <div class="col col-sm order-sm-last col-md">
                         </div>
                     </div>
@@ -101,6 +103,63 @@
         </div>
     </header>
     <div class="container">
+
+        <div class="row row-content">
+            <div class="col">
+                <div id="mycarousel" class="carousel slide" data-ride="carousel">
+                    <a class="carousel-control-prev" href="#mycarousel" role="button" data-slide="prev">
+                        <span class="carousel-control-prev-icon"></span>
+                    </a>
+                    <a class="carousel-control-next" href="#mycarousel" role="button" data-slide="next">
+                        <span class="carousel-control-next-icon"></span>
+                    </a>
+                    <div class="carousel-inner" role="listbox">
+                        <div class="carousel-item active">
+                            <ol class="carousel-indicators">
+                                <li data-target="#mycarousel" data-slide-to="0" class="active"></li>
+                                <li data-target="#mycarousel" data-slide-to="1"></li>
+                                <li data-target="#mycarousel" data-slide-to="2"></li>
+                            </ol>
+                            <img class="d-block img-fluid"
+                            src="templates/static/uthappizza.png" alt="uthapizza">
+                        <div class="carousel-caption d-none d-md-block">
+                            <h2>Uthappizza <span class="badge badge-danger">HOT</span> <span class="badge badge-pill badeg-secondary">$4.0</span> </h2>
+                            <p class="d-none d-sm-block">A unique combination of Indian Uthappam (pancake) and Italian pizza, topped with Cerignola olives, ripe vine cherry tomatoes, Vidalia onion, Guntur chillies and Buffalo Paneer.</p>
+                        </div>
+
+                    </div>
+                        <div class="carousel-item">
+                            <a class="carousel-control-prev" href="#mycarousel" role="button" data-slide="prev">
+                                <span class="carousel-control-prev-icon"></span>
+                            </a>
+                            <a class="carousel-control-next" href="#mycarousel" role="button" data-slide="next">
+                                <span class="carousel-control-next-icon"></span>
+                            </a>
+                            <img class="d-block img-fluid"
+                            src="templates/static/buffet.png" alt="buffet">
+                        <div class="carousel-caption d-none d-md-block">
+                            <h2 >Weekend Grand Buffet <span class="badge badge-secondary badge-danger">NEW</span> </h2>
+                            <p class="d-none d-sm-block">Featuring mouthwatering combinations with a choice of five different salads, six enticing appetizers, six main entrees and five choicest desserts. Free flowing bubbly and soft drinks. All for just $19.99 per person </p>
+                        </div>
+                    </div>
+                        <div class="carousel-item">
+                            <a class="carousel-control-prev" href="#mycarousel" role="button" data-slide="prev">
+                                <span class="carousel-control-prev-icon"></span>
+                            </a>
+                            <a class="carousel-control-next" href="#mycarousel" role="button" data-slide="next">
+                                <span class="carousel-control-next-icon"></span>
+                            </a>
+                            <img class="d-block img-fluid"
+                            src="templates/static/alberto.png" alt="alberto">
+                        <div class="carousel-caption d-none d-md-block">
+                            <h4>Executive Chef</h4>
+                            <p class="d-none d-sm-block">Award winning three-star Michelin chef with wide International experience having worked closely with whos-who in the culinary world, he specializes in creating mouthwatering Indo-Italian fusion experiences. </p>
+                        </div>
+                        </div>
+                    </div>
+            </div>
+        </div>
+
         <div class="row row-content align-items-center">
             <div class="col-12 col-sm-4 order-sm-last col-md-3">
                 <h3>Our Lipsmacking Culinary Creations</h3>
@@ -110,7 +169,7 @@
                     <img class="d-flex mr-3 img-thumbnail align-self-center" src="templates/static/uthappizza.png" alt="Uthappiza">
                     <div class="media-body">
                 <h2 class="mt-0">Uthappizza <span class="badge badge-danger">HOT</span> <span class="badge badge-pill badeg-secondary">$4.0</span> </h2>
-                <p>A unique combination of Indian Uthappam (pancake) and Italian pizza, topped with Cerignola olives, ripe vine cherry tomatoes, Vidalia onion, Guntur chillies and Buffalo Paneer.</p>
+                <p class="d-none d-sm-block">A unique combination of Indian Uthappam (pancake) and Italian pizza, topped with Cerignola olives, ripe vine cherry tomatoes, Vidalia onion, Guntur chillies and Buffalo Paneer.</p>
             </div>
         </div>
     </div>
@@ -126,7 +185,7 @@
                         <img class="d-flex mr-3 img-thumbnail order-sm-last" src="templates/static/buffet.png" alt="Uthappiza">
                         <div class="media-body">
                             <h2 class="mt-0">Weekend Grand Buffet <span class="badge badge-secondary badge-danger">NEW</span> </h2>
-                            <p>Featuring mouthwatering combinations with a choice of five different salads, six enticing appetizers, six main entrees and five choicest desserts. Free flowing bubbly and soft drinks. All for just $19.99 per person </p>
+                            <p class="d-none d-sm-block">Featuring mouthwatering combinations with a choice of five different salads, six enticing appetizers, six main entrees and five choicest desserts. Free flowing bubbly and soft drinks. All for just $19.99 per person </p>
                 </div>
             </div>
             </div>
@@ -149,13 +208,13 @@
 </div>
 </div>
 
-<div class="container">
-<div class="row">
+
+
     <div class="col-12 col-4 offset-2 align-self-center col-sm-4">
         <div class="card text-black bg-light mb-3" style="max-width: 40rem;">
             <div class="card-header-fr text-white"><h2>Reserve a Table</h2></div>
             <div class="card-body">
-             
+                
         <form>
             <div class="form-group row">
               <label for="numberofguests" class="col-sm-2 col-form-label" id="guests">Number of Guests</label>
